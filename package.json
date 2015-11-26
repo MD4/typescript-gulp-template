@@ -1,0 +1,40 @@
+{
+  "name": "typescript-gulp-template",
+  "version": "0.1.0",
+  "description": "My typescript-gulp template",
+  "main": "dist/template.js",
+  "scripts": {
+    "postinstall": "gulp install",
+    "test": "gulp test"
+  },
+  "keywords": [
+    "gulp",
+    "typescript",
+    "template",
+    "mocha"
+  ],
+  "author": "Martin Dequatremare <m.dequa@gmail.com> (http://martin-dequatremare.fr)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MD4/typescript-gulp-template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MD4/typescript-gulp-template/issues"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "gulp": "^3.9.0",
+    "gulp-clean": "^0.3.1",
+    "gulp-mocha": "^2.2.0",
+    "gulp-tsd": "0.0.4",
+    "gulp-typedoc": "^1.2.1",
+    "gulp-typescript": "^2.9.2",
+    "gulp-uglify": "^1.5.1",
+    "gulp-watch": "^4.3.5",
+    "run-sequence": "^1.1.5",
+    "tsify": "^0.12.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
